@@ -1,0 +1,10 @@
+[33m4e2a4c3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Change JWT management to legacy
+[33mc3ff6f6[m Add proxy true for Render
+[33m2299b9c[m Fix unused UserData import
+[33m8c56005[m Initialize README with project details and setup instructions
+[33m6b8afe1[m Setup Strapi backend with food and activity APIs
+[33mf6fc119[m Complete frontend API integration and profile updates
+[33mdf24ad7[m Complete frontend fitness tracker
+[33m8163f2d[m Completed Activity Log feature
+[33m6a1916c[m Complete Food Log feature
+[33m9c1e81a[m Complete dashboard UI with progress tracking and dark mode

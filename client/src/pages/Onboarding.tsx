@@ -11,6 +11,7 @@ import { goalOptions } from "../assets/assets"
 import { ageRanges } from "../assets/assets"
 import Slider from "../components/ui/Slider"
 
+
 const Onboarding = () => {
 
   const [step, setStep] = useState(1)
