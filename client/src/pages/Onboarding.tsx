@@ -50,7 +50,11 @@ const handleNext = async ()=>{
     };
     localStorage.setItem('fitnessUser', JSON.stringify(userData))
     try {
-      await api.put(`/api/users/${user?.id}`, userData)
+      await api.put('/api/profile/me', userData, {
+  headers: {
+    Authorization: `Bearer ${user?.token}`
+  }
+})
       toast.success('Profile updated successfully')
     setOnboardingCompleted(true)
     fetchUser(user?.token || "")

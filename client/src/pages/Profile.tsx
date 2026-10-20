@@ -42,7 +42,7 @@ const handleSave = async ()=>{
   try {
    
     await api.put(
-      `/api/users/${user?.id}`, 
+      '/api/profile/me',
       formData,
     
           {
